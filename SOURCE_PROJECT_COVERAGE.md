@@ -7,3 +7,6 @@
 | AISportsAgentContractAnalyzer | 15 | 4 | 1 | 5 | ai.js<br>auth.js<br>clients.js<br>contracts.js<br>draft_scouting.js |
 | government_contracts_v2_backup | 8 | 0 | 0 | 0 | admin.js<br>contracts.js<br>documentProcessing.js<br>documentSearch.js<br>jobs.js |
 | ai_procurement_management | 14 | 22 | 1 | 1 | ai.ts<br>analytics.ts<br>auth.ts<br>bids.ts<br>compliance.ts |
+| AIGrantWriter | 0 | 0 | 0 | 1 | Grant Writing<br>RFP Response<br>SOW Generator<br>Submission Tracker |
+| AIProposalSOWGenerator | 0 | 0 | 0 | 1 | Grant Writing<br>RFP Response<br>SOW Generator<br>Submission Tracker |
+| AIConstructionBidAnalyzer | 0 | 0 | 0 | 1 | Grant Writing<br>RFP Response<br>SOW Generator<br>Submission Tracker |

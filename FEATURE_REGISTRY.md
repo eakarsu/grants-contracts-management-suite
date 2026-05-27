@@ -18,3 +18,14 @@
 - Profiles
 - AI Assistant
 - AI Tools
+
+## Grant RFP Proposal
+
+- Grant Writing
+- RFP Response
+- SOW Generator
+- Submission Tracker
+
+## Focused enhancement: Grant RFP Proposal
+
+Source evidence: AIGrantWriter, AIProposalSOWGenerator, AIConstructionBidAnalyzer.

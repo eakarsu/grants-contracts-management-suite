@@ -1,8 +1,8 @@
 # Grants Contracts Management Suite Source Data Tables
 
-Mapped source projects: 5
+Mapped source projects: 8
 
-Detected source tables: 219
+Detected source tables: 314
 
 | Source Project | Table | Framework | Columns | Source File |
 | --- | --- | --- | ---: | --- |
@@ -45,6 +45,101 @@ Detected source tables: 219
 | ai_procurement_management | vendor_evaluations | SQL | 9 | backend/prisma/migrations/20250718031829_add_product_model/migration.sql |
 | ai_procurement_management | vendors | Prisma | 27 | backend/prisma/schema.prisma |
 | ai_procurement_management | vendors | SQL | 19 | backend/prisma/migrations/20250718031829_add_product_model/migration.sql |
+| AIConstructionBidAnalyzer | ai_analyses | SQL | 6 | server/seed.js |
+| AIConstructionBidAnalyzer | ai_analyses | SQL | 9 | server/migrations/001_schema.sql |
+| AIConstructionBidAnalyzer | bid_comparisons | SQL | 7 | server/seed.js |
+| AIConstructionBidAnalyzer | bid_comparisons | SQL | 7 | server/migrations/001_schema.sql |
+| AIConstructionBidAnalyzer | bids | SQL | 10 | server/seed.js |
+| AIConstructionBidAnalyzer | bids | SQL | 11 | server/migrations/001_schema.sql |
+| AIConstructionBidAnalyzer | change_orders | SQL | 11 | server/seed.js |
+| AIConstructionBidAnalyzer | change_orders | SQL | 13 | server/migrations/001_schema.sql |
+| AIConstructionBidAnalyzer | compliance | SQL | 12 | server/migrations/001_schema.sql |
+| AIConstructionBidAnalyzer | compliance_checks | SQL | 10 | server/seed.js |
+| AIConstructionBidAnalyzer | contractors | SQL | 12 | server/seed.js |
+| AIConstructionBidAnalyzer | contractors | SQL | 13 | server/migrations/001_schema.sql |
+| AIConstructionBidAnalyzer | cost_estimates | SQL | 9 | server/seed.js |
+| AIConstructionBidAnalyzer | cost_estimates | SQL | 12 | server/migrations/001_schema.sql |
+| AIConstructionBidAnalyzer | documents | SQL | 10 | server/seed.js |
+| AIConstructionBidAnalyzer | documents | SQL | 15 | server/migrations/001_schema.sql |
+| AIConstructionBidAnalyzer | gap_features | SQL | 7 | server/routes/gap_contractors_subcontractors_lack_ai_scoring_or_performance_pr.js |
+| AIConstructionBidAnalyzer | gap_features | SQL | 7 | server/routes/gap_limited_mobile_field_app_surfaces.js |
+| AIConstructionBidAnalyzer | gap_features | SQL | 7 | server/routes/gap_no_agentic_bid_negotiation_flow.js |
+| AIConstructionBidAnalyzer | gap_features | SQL | 7 | server/routes/gap_no_calendar_integration.js |
+| AIConstructionBidAnalyzer | gap_features | SQL | 7 | server/routes/gap_no_equipment_rental_marketplace_or_availability_tracker.js |
+| AIConstructionBidAnalyzer | gap_features | SQL | 7 | server/routes/gap_no_photo_site_vision_ai_for_progress_or_safety_inspection.js |
+| AIConstructionBidAnalyzer | gap_features | SQL | 7 | server/routes/gap_no_rfq_automation_or_vendor_outreach_workflow.js |
+| AIConstructionBidAnalyzer | gap_features | SQL | 7 | server/routes/gap_no_supplier_directory_vendor_management_portal.js |
+| AIConstructionBidAnalyzer | labor | SQL | 11 | server/migrations/001_schema.sql |
+| AIConstructionBidAnalyzer | labor_costs | SQL | 9 | server/seed.js |
+| AIConstructionBidAnalyzer | materials | SQL | 10 | server/seed.js |
+| AIConstructionBidAnalyzer | materials | SQL | 11 | server/migrations/001_schema.sql |
+| AIConstructionBidAnalyzer | projects | SQL | 11 | server/seed.js |
+| AIConstructionBidAnalyzer | projects | SQL | 12 | server/migrations/001_schema.sql |
+| AIConstructionBidAnalyzer | risk_assessments | SQL | 10 | server/seed.js |
+| AIConstructionBidAnalyzer | risk_assessments | SQL | 11 | server/migrations/001_schema.sql |
+| AIConstructionBidAnalyzer | subcontractors | SQL | 11 | server/seed.js |
+| AIConstructionBidAnalyzer | subcontractors | SQL | 13 | server/migrations/001_schema.sql |
+| AIConstructionBidAnalyzer | timelines | SQL | 10 | server/seed.js |
+| AIConstructionBidAnalyzer | timelines | SQL | 11 | server/migrations/001_schema.sql |
+| AIConstructionBidAnalyzer | users | SQL | 7 | server/seed.js |
+| AIConstructionBidAnalyzer | users | SQL | 7 | server/migrations/001_schema.sql |
+| AIGrantWriter | ai_results | SQL | 11 | backend/seed.js |
+| AIGrantWriter | budgets | SQL | 16 | backend/seed.js |
+| AIGrantWriter | deadlines | SQL | 12 | backend/seed.js |
+| AIGrantWriter | documents | SQL | 7 | backend/seed.js |
+| AIGrantWriter | funder_interactions | SQL | 7 | backend/routes/funderRelationshipCRM.js |
+| AIGrantWriter | funders | SQL | 18 | backend/seed.js |
+| AIGrantWriter | gap_features | SQL | 5 | backend/routes/gap-backend-is-monolithic-no-routes-folder.js |
+| AIGrantWriter | gap_features | SQL | 5 | backend/routes/gap-no-e-signature-integration-for-proposal.js |
+| AIGrantWriter | gap_features | SQL | 5 | backend/routes/gap-no-file-upload-pipeline-for-supporting.js |
+| AIGrantWriter | gap_features | SQL | 5 | backend/routes/gap-no-proposal-style-consistency-enforcer-a.js |
+| AIGrantWriter | gap_features | SQL | 5 | backend/routes/gap-no-real-time-collaboration-on-proposals.js |
+| AIGrantWriter | gap_features | SQL | 5 | backend/routes/gap-no-real-time-funder-deadline-change.js |
+| AIGrantWriter | gap_features | SQL | 5 | backend/routes/gap-no-rejection-reason-classifier-for-past.js |
+| AIGrantWriter | gap_features | SQL | 5 | backend/routes/gap-no-webhook-receivers-for-grant-portal.js |
+| AIGrantWriter | grants | SQL | 13 | backend/seed.js |
+| AIGrantWriter | impact_metrics | SQL | 16 | backend/seed.js |
+| AIGrantWriter | organizations | SQL | 13 | backend/seed.js |
+| AIGrantWriter | proposals | SQL | 10 | backend/seed.js |
+| AIGrantWriter | templates | SQL | 8 | backend/seed.js |
+| AIGrantWriter | users | SQL | 12 | backend/seed.js |
+| AIProposalSOWGenerator | ai_generations | SQL | 13 | backend/schema.sql |
+| AIProposalSOWGenerator | ai_results | SQL | 12 | backend/schema.sql |
+| AIProposalSOWGenerator | ai_results | SQL | 6 | backend/routes/ai-sow-generate.js |
+| AIProposalSOWGenerator | analytics | SQL | 11 | backend/schema.sql |
+| AIProposalSOWGenerator | clients | SQL | 15 | backend/schema.sql |
+| AIProposalSOWGenerator | competitor_differentiators | SQL | 17 | backend/schema.sql |
+| AIProposalSOWGenerator | documents | SQL | 17 | backend/schema.sql |
+| AIProposalSOWGenerator | gap_features | SQL | 7 | backend/routes/gap-no-ai-clauseterm-recommendation.js |
+| AIProposalSOWGenerator | gap_features | SQL | 7 | backend/routes/gap-no-ai-pricing-intelligence.js |
+| AIProposalSOWGenerator | gap_features | SQL | 7 | backend/routes/gap-no-ai-proposalfrombrief-generation.js |
+| AIProposalSOWGenerator | gap_features | SQL | 7 | backend/routes/gap-no-ai-risk-allocation-generation.js |
+| AIProposalSOWGenerator | gap_features | SQL | 7 | backend/routes/gap-no-ai-sow-generation-endpoint.js |
+| AIProposalSOWGenerator | gap_features | SQL | 7 | backend/routes/gap-no-changeorder-tracking.js |
+| AIProposalSOWGenerator | gap_features | SQL | 7 | backend/routes/gap-no-client-project-or-proposal-crud.js |
+| AIProposalSOWGenerator | gap_features | SQL | 7 | backend/routes/gap-no-esignature-workflow.js |
+| AIProposalSOWGenerator | gap_features | SQL | 7 | backend/routes/gap-no-notifications-audit-log-or-rbac.js |
+| AIProposalSOWGenerator | gap_features | SQL | 7 | backend/routes/gap-no-pdf-export-route-codebase-imports-pdf-lib.js |
+| AIProposalSOWGenerator | gap_features | SQL | 7 | backend/routes/gap-no-pricingratecard-management.js |
+| AIProposalSOWGenerator | gap_features | SQL | 7 | backend/routes/gap-no-template-library-or-section-snippets.js |
+| AIProposalSOWGenerator | pricing | SQL | 13 | backend/schema.sql |
+| AIProposalSOWGenerator | pricing_suggestions | SQL | 20 | backend/schema.sql |
+| AIProposalSOWGenerator | projects | SQL | 15 | backend/schema.sql |
+| AIProposalSOWGenerator | proposal_items | SQL | 9 | backend/schema.sql |
+| AIProposalSOWGenerator | proposal_revisions | SQL | 7 | backend/schema.sql |
+| AIProposalSOWGenerator | proposal_template_rules | SQL | 10 | backend/routes/customViews.js |
+| AIProposalSOWGenerator | proposal_templates | SQL | 12 | backend/schema.sql |
+| AIProposalSOWGenerator | proposals | SQL | 22 | backend/schema.sql |
+| AIProposalSOWGenerator | risk_sections | SQL | 18 | backend/schema.sql |
+| AIProposalSOWGenerator | services | SQL | 11 | backend/schema.sql |
+| AIProposalSOWGenerator | settings | SQL | 8 | backend/schema.sql |
+| AIProposalSOWGenerator | sow_items | SQL | 13 | backend/schema.sql |
+| AIProposalSOWGenerator | sows | SQL | 25 | backend/schema.sql |
+| AIProposalSOWGenerator | team_members | SQL | 15 | backend/schema.sql |
+| AIProposalSOWGenerator | templates | SQL | 12 | backend/schema.sql |
+| AIProposalSOWGenerator | timeline_generations | SQL | 19 | backend/schema.sql |
+| AIProposalSOWGenerator | users | SQL | 8 | backend/schema.sql |
+| AIProposalSOWGenerator | win_loss_analyses | SQL | 18 | backend/schema.sql |
 | AISmartContractAuditor | AuditHistory | Prisma | 10 | backend/prisma/schema.prisma |
 | AISmartContractAuditor | AuditReport | Prisma | 18 | backend/prisma/schema.prisma |
 | AISmartContractAuditor | ComplianceTemplate | Prisma | 7 | backend/prisma/schema.prisma |

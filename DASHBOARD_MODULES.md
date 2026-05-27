@@ -8,3 +8,5 @@
 - Milestones operating view
 - Subrecipients operating view
 - Compliance operating view
+
+- Grant RFP Proposal operating view

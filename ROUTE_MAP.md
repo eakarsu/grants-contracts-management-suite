@@ -7,6 +7,9 @@ Primary routes:
 - `/profiles`
 
 Feature routes:
+- `/proposal-submission-tracker`
+- `/rfp-compliance-matrix`
+- `/grant-draft`
 - `/submission-tracker`
 - `/sow-generator`
 - `/rfp-response`
